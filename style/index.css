@@ -116,7 +116,8 @@ header a {
   margin: 0 0.5%;
 }
 
-header a:hover {
+header a:hover,
+header .active {
   color: #0085f7;
   background: white;
   animation:heartBeat;
