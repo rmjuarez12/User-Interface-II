@@ -1,1 +1,193 @@
-/* Add CSS styling here */
+/***** reset css *****/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+  margin: 0;  
+  padding: 0;  
+  border: 0;  
+  font-size: 100%;  
+  font: inherit;  
+  vertical-align: baseline;  
+}
+
+/***** HTML5 display-role reset *****/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/***** every element is a border-box *****/
+* {
+  box-sizing: border-box;
+}
+
+/***** Global/General Elements *****/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #881ab8;
+}
+
+.page-container {
+  width: 90%;
+  margin: 2% auto;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5em;
+}
+
+a, img {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/***** Header Elements *****/
+header h1 {
+  color: white;
+  font-size: 6rem;
+  padding-bottom: 1.2%;
+  border-bottom: 1px solid white;
+  text-align: center;
+  display: block;
+  margin: 0 auto 1.2%;
+  width: 50%;
+  animation:zoomInDown;
+  animation-duration:2s;
+}
+
+header > nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  animation:zoomInDown;
+  animation-duration:2s;
+}
+
+header a {
+  display: block;
+  padding: 1% 2%;
+  width: 10%;
+  border: white 2px solid;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0 0.5%;
+}
+
+header a:hover {
+  color: #881ab8;
+  background: white;
+  animation:heartBeat;
+  animation-duration:2s;
+}
+
+/***** Main Content - Bio *****/
+#main-content {
+  background: white;
+  padding: 2%;
+}
+
+.intro {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: center;
+  margin-bottom: 2%;
+}
+
+.intro img {
+  width: 26%;
+  margin: 0 2%; 
+  border-radius: 30px;
+  animation:backInLeft;
+  animation-duration:2s;
+}
+
+.intro img:hover {
+  border-radius: 50%;
+  width: 26.5%;
+}
+
+.intro .bio {
+  width: 60%;
+  margin: 0 2%;
+  animation:backInRight;
+  animation-duration:2s;
+}
+
+.intro .bio h3 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  padding-bottom: 1.2%;
+  margin-bottom: 1.2%;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.bio-links {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1.5%;
+}
+
+.bio-links a {
+  display: block;
+  width: 20%;
+  font-size: 1.5rem;
+  border: #881ab8 2px solid;
+  color: white;
+  background-color: #881ab8;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0.5%;
+}
+
+.bio-links a:hover {
+  color: #881ab8;
+  background: white;
+}
+
+/***** Main Content - Projects *****/
+.projects {
+  animation:fadeInUp;
+  animation-duration:2s;
+}
+
+.projects-heading h2 {
+  font-size: 4rem;
+  margin-bottom: 0.5%;
+}
+
+.projects-heading {
+  padding: 15px; 
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  text-align: center;
+}
