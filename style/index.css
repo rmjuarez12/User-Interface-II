@@ -279,3 +279,7 @@ footer a:hover {
   animation:heartBeat;
   animation-duration:2s;
 }
+
+footer p {
+  color: white;
+}
