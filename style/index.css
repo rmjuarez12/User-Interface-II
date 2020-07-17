@@ -37,7 +37,7 @@ html {
 }
 
 body {
-  background-color: #881ab8;
+  background-color: #0f1b53;
 }
 
 .page-container {
@@ -100,7 +100,7 @@ header a {
 }
 
 header a:hover {
-  color: #881ab8;
+  color: #0085f7;
   background: white;
   animation:heartBeat;
   animation-duration:2s;
@@ -109,7 +109,7 @@ header a:hover {
 /***** Main Content - Bio *****/
 #main-content {
   background: white;
-  padding: 2%;
+  padding: 3%;
 }
 
 .intro {
@@ -159,9 +159,9 @@ header a:hover {
   display: block;
   width: 20%;
   font-size: 1.5rem;
-  border: #881ab8 2px solid;
+  border: #0085f7 2px solid;
   color: white;
-  background-color: #881ab8;
+  background-color: #0085f7;
   padding: 1% 2%;
   text-align: center;
   text-decoration: none;
@@ -170,7 +170,7 @@ header a:hover {
 }
 
 .bio-links a:hover {
-  color: #881ab8;
+  color: #0085f7;
   background: white;
 }
 
