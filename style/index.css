@@ -239,7 +239,7 @@ header .active {
 
 .project-thumbnail:hover {
   border-radius: 50%;
-  animation:heartBeat;
+  animation:jello;
   animation-duration:1s;
 }
 
