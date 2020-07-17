@@ -52,8 +52,8 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
 - [ ] Make your webpage work at different browser widths, including mobile
-- [ ] Add CSS animations
-- [ ] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
+- [x] Add CSS animations
+- [x] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
 - [ ] Host your website on Netlify.com
 
 ## FAQs
@@ -76,6 +76,6 @@ _Wireframes are used to outline webpage styles, content, and functionality. UX d
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull request
+- [x] Submit a pull request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
+- [x] Add your Team Lead as a reviewer on the pull request
 - [ ] Your Team Lead will count the project as complete by merging the branch back into master
